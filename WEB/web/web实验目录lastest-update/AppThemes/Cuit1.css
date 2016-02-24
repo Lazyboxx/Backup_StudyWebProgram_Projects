@@ -1,0 +1,105 @@
+﻿.tvRoot{
+    font-size:14px;
+	display: block;
+	width: 180px;
+	color: #000;
+	height: 30px;
+	text-decoration: none;
+	background-image: url(../img/menu_bgS.gif);
+	background-repeat: no-repeat;
+	line-height: 30px;
+	text-align: left;	
+	padding-left: 0px;
+    vertical-align:top;
+    text-indent:10px;
+}
+.tvLeaf{
+    width:150px;
+}
+
+
+.tvLeaf a:link {
+	line-height: 26px;
+	color: #333333;
+	background-image: url(../img/menu_bg1.gif);
+	background-repeat: no-repeat;
+	height: 30px;
+	
+	display: block;
+	text-align: left;
+	margin: 0px;
+	padding-left: 10px;
+	overflow: hidden;
+	text-decoration: none;
+}
+
+.tvLeaf a:visited {
+	line-height: 26px;
+	color: #333333;
+	background-image: url(../img/menu_bg1.gif);
+	background-repeat: no-repeat;
+	display: block;
+	text-align: left;
+	margin: 0px;
+	padding-left: 10px;
+	height: 26px;
+
+	text-decoration: none;
+}
+.tvLeaf a:active {
+	line-height: 26px;
+	color: #333333;
+	background-image: url(../img/menu_bg1.gif);
+	background-repeat: no-repeat;
+	height: 26px;
+
+	display: block;
+	text-align: left;
+	margin: 0px;
+	padding-left: 10px;
+	overflow: hidden;
+	text-decoration: none;
+}
+.tvLeaf a:hover {
+	line-height: 26px;
+	font-weight: bold;
+	color: #ff6600;
+	text-align: left;
+	display: block;
+	margin: 0px;
+	padding-left: 10px;
+	height: 26px;
+
+	text-decoration: none;
+}
+
+.LabCenter{
+    text-align:center;
+}
+
+.HiddenGvColumn{
+    display:none;
+}
+
+#labTip{
+    color:red;
+}
+
+.loginTop
+{
+    background: url(../img/login-top-bg.gif) repeat-x;
+    height:41px;
+}
+.loginContent
+{
+    background:url(../img/login-content-bg.gif);
+    background-size:100% 100%;
+    height:532px;
+}
+.loginBottom {
+    background:url(../img/login-buttom-bg.gif) repeat;
+    height:20px;
+}
+iframe{
+	word-wrap: break-word;
+}

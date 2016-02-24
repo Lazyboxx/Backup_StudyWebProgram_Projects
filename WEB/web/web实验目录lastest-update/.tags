@@ -1,0 +1,38 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+div	/home/sky/Desktop/web编程/web实验目录/AppThemes/webStyle.css	/^div{$/;"	function	line:3
+.topbar	/home/sky/Desktop/web编程/web实验目录/AppThemes/webStyle.css	/^.topbar{$/;"	function	line:6
+.hint	/home/sky/Desktop/web编程/web实验目录/AppThemes/webStyle.css	/^.hint{$/;"	function	line:15
+#HintContent	/home/sky/Desktop/web编程/web实验目录/AppThemes/webStyle.css	/^#HintContent{$/;"	function	line:22
+#HintContent li	/home/sky/Desktop/web编程/web实验目录/AppThemes/webStyle.css	/^#HintContent li{$/;"	function	line:26
+html	/home/sky/Desktop/web编程/web实验目录/index.html	/^<html xmlns="http:\/\/www.w3.org\/1999\/xhtml">$/;"	function	line:2
+head	/home/sky/Desktop/web编程/web实验目录/index.html	/^<head>$/;"	function	line:3
+meta	/home/sky/Desktop/web编程/web实验目录/index.html	/^<meta http-equiv="Content-Type" content="text\/html; charset=utf-8" \/>$/;"	function	line:4
+title	/home/sky/Desktop/web编程/web实验目录/index.html	/^<title>无标题文档<\/title>$/;"	function	line:5
+link	/home/sky/Desktop/web编程/web实验目录/index.html	/^<link href="AppThemes\/webStyle.css" rel="stylesheet" type="text\/css" \/>$/;"	function	line:8
+body	/home/sky/Desktop/web编程/web实验目录/index.html	/^<body>$/;"	function	line:11
+div	/home/sky/Desktop/web编程/web实验目录/index.html	/^<div class="Page topbar hint">$/;"	function	line:12
+div	/home/sky/Desktop/web编程/web实验目录/index.html	/^	<div class="topbar">$/;"	function	line:13
+div	/home/sky/Desktop/web编程/web实验目录/index.html	/^    	<div class="hint">$/;"	function	line:14
+ul	/home/sky/Desktop/web编程/web实验目录/index.html	/^		 <ul id="HintContent" >$/;"	function	line:15
+li	/home/sky/Desktop/web编程/web实验目录/index.html	/^         <li>$/;"	function	line:16
+a	/home/sky/Desktop/web编程/web实验目录/index.html	/^         <a target='_blank' href='http:\/\/www.cdio2015.cn\/'>$/;"	function	line:17
+li	/home/sky/Desktop/web编程/web实验目录/index.html	/^         <li>$/;"	function	line:21
+a	/home/sky/Desktop/web编程/web实验目录/index.html	/^         <a target='_blank' href='http:\/\/english.cuit.edu.cn'>$/;"	function	line:22
+li	/home/sky/Desktop/web编程/web实验目录/index.html	/^         <li>$/;"	function	line:26
+a	/home/sky/Desktop/web编程/web实验目录/index.html	/^         <a target='_blank' href='http:\/\/www1.cuit.edu.cn\/'>$/;"	function	line:27
+div	/home/sky/Desktop/web编程/web实验目录/index.html	/^	<div class="log">$/;"	function	line:37
+div	/home/sky/Desktop/web编程/web实验目录/index.html	/^	<div class="navigation">$/;"	function	line:41
+div	/home/sky/Desktop/web编程/web实验目录/index.html	/^	<div class="photo">$/;"	function	line:45
+div	/home/sky/Desktop/web编程/web实验目录/index.html	/^	<div class="news">$/;"	function	line:49
+div	/home/sky/Desktop/web编程/web实验目录/index.html	/^	<div class="externalLinks">$/;"	function	line:53
+div	/home/sky/Desktop/web编程/web实验目录/index.html	/^	<div class="footer">$/;"	function	line:57
+html	/home/sky/Desktop/web编程/web实验目录/admin/indexadmin.html	/^<html xmlns="http:\/\/www.w3.org\/1999\/xhtml">$/;"	function	line:2
+head	/home/sky/Desktop/web编程/web实验目录/admin/indexadmin.html	/^<head>$/;"	function	line:3
+meta	/home/sky/Desktop/web编程/web实验目录/admin/indexadmin.html	/^<meta http-equiv="Content-Type" content="text\/html; charset=utf-8" \/>$/;"	function	line:4
+title	/home/sky/Desktop/web编程/web实验目录/admin/indexadmin.html	/^<title>无标题文档<\/title>$/;"	function	line:5
+body	/home/sky/Desktop/web编程/web实验目录/admin/indexadmin.html	/^<body>$/;"	function	line:8

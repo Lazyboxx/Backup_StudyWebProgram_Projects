@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>成都信息工程大学后台管理系统</title>
+<style type="text/css">
+strong {
+	font-size: 36px;
+}
+
+table {
+	text-align: center;
+}
+</style>
+
+<link href="../AppThemes/ADMS.css" type="text/css" rel="stylesheet">
+
+<script type="text/javascript" language="javascript"> 
+function iFrameHeight() {   
+var ifm= document.getElementById("iframepage");   
+var subWeb = document.frames ? document.frames["iframepage"].document : ifm.contentDocument;   
+if(ifm != null && subWeb != null) {
+   ifm.height = subWeb.body.scrollHeight;
+   ifm.width = subWeb.body.scrollWidth;
+}   
+}
+
+</script>
+
+<script type="text/javascript" src="../js/my1.js"  language="javascript"></script>
+<script type="text/javascript" src="../js/jquery-1.10.2.min.js"  language="javascript"></script>
+
+<script type="text/javascript" language="javascript">
+function gozy(){
+		$("#iframepage").attr("src","welcome.html");
+	}
+function gofb(){
+	
+	$("#iframepage").attr("src","newsAdd.html");
+}
+
+function gogl(){
+
+	$("#iframepage").attr("src","NewsDelete.html");
+}
+
+function goum(){
+	$("#iframepage").attr("src","UserMange.html");
+}
+</script>
+</head>
+
+<body>
+	<div class="title" id="title">
+		<a class="ta" id="ta">
+        	成都信息工程大学后台管理系统
+        </a>
+    </div>
+    <div class="content" id="content">
+    	<div class="Dleft" id="Dleft">
+        	<ul class="ulist" id="ulist">
+            	<li class="llist" id="llist">
+        	<a class="Mana" id="Mana" href="javascript:void(0)" onclick="gozy()">
+            	后台首页
+            </a>
+            <br class="CBr" id="CBr" />
+            	</li>
+            	<li class="llist" id="llist">
+        	<a class="Mana" id="Mana" href="javascript:void(0)" onclick="gofb()">
+            	新闻发布
+            </a>
+            <br class="CBr" id="CBr" />
+            	</li>
+                <li class="llist" id="llist">
+            <a class="Mana" id="Mana" href="javascript:void(0)" onclick="gogl()">
+            	新闻管理
+            </a>
+            <br class="CBr" id="CBr" />
+            	</li>
+                <li class="llist" id="llist">
+            <a class="Mana" id="Mana" href="javascript:void(0)" onclick="goum()">
+            	用户管理
+            </a>
+            	</li>
+            <a class="Mana" id="Mana">
+            </a>
+            <a class="Mana" id="Mana">
+            </a>
+            </ul>
+        </div>
+        <div class="Dright" id="Dright">
+
+        </div>
+                	<iframe src="welcome.html" id="iframepage" class="iframepage" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" onLoad="iFrameHeight()"></iframe>
+                    
+    </div>
+    <div class="footer" id="footer">
+    	<a class="CopyRight" id="CopyRight">
+        	成都信息工程大学版权所有
+        </a>
+    </div>
+
+</body>
+</html>

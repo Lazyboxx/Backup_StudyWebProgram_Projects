@@ -1,0 +1,757 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+
+/*定制主页用的背景图片*/
+.Page {
+    font-size: 13px;
+    line-height: 1.5;
+    font-family: "MicrosoftYaHei","Microsoft YaHei",Arial;
+    background: white url(../img/cuitbeijing.jpg) no-repeat 50% 0px;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+
+.right {
+    float: right;
+}
+ul, li {
+    list-style: none;
+}
+a{
+	text-decoration: none;
+}
+
+/* topbar  design   start*/
+.topbar{
+
+	font-size: 11px;
+	background-color: #0969b5;
+	height: 20px;
+	line-height: 20px;
+}
+.hint{
+
+	width: 960px;
+	background-color: white;
+	margin: 0 auto;
+
+}
+.HintContent{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+.HintContent li {
+    float: right;
+    height: 20px;
+}
+.HintContent li a{
+	display: block;
+	border-left: 1px solid white;
+	margin-right: 10px;
+	margin-left: 10px;
+	color: white;
+}
+/* topbar  design   end*/
+
+
+
+/*logo design   start*/
+.logo{
+	height: 90px;
+}
+.content {
+    width: 960px;
+    margin: 0 auto;
+}
+
+/*logo design   end*/
+
+
+
+
+#MAIN{
+	display:block;
+	clear:both;
+	width:1000px;
+	margin: 0 auto;
+}
+
+#MAIN .leftD{
+	width:100px;
+	float:left;
+	margin-top:20px;
+	position:absolute;
+}
+#MAIN .rightD{
+	width:760px;
+	float:left;
+	margin-left:130px;
+	position:relative;
+}
+
+
+/*navigation design start*/
+.navigation{
+  Z-INDEX: 10;/*z-index 属性设置元素的堆叠顺序。拥有更高堆叠顺序的元素总是会处于堆叠顺序较低的元素的前面*/
+}
+.navi-container {
+    height: 30px;
+    width: 100px;
+	margin-right:100px;
+  
+}
+
+ul.navigations li {
+    width: 80px;
+    background-image: url(../img/navpre.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    line-height: 24px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+ul.navigations li a.navigation {
+        display: block;
+        font-size: 13px;
+        color: white;
+        line-height: 24px;
+}
+
+ul.navigations li a:hover{
+        color: #96012D;
+}
+
+ul.navigations li .sub-navi {
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    top: 0px;
+    left: 50px;
+    opacity: .95;
+    filter: alpha(opacity=85);
+}
+
+ul.navigations li .sub-navi li {
+        font-size: 12px;
+        height: 30px;
+        line-height: 30px;
+        padding: 0;
+        margin-bottom: 0px;
+        width: 100px;
+        background-image: url(../img/xiala3.png);
+        background-repeat: repeat-y;
+        background-position: 80% 50%;
+}
+
+.sub-navi li a {
+    display: block;
+    color: white;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.sub-navi li a:hover {
+        color: #96012D;
+}
+.navitop {
+    margin-bottom: 0;
+    background-image: url(../img/xiala1.png);
+    background-repeat: no-repeat;
+    background-position: 80% 50%;
+    height: 9px;
+    width: 100px;
+}
+
+/*navigation design end*/
+
+
+/* 滚动图片的小按钮START */
+#spotlight {
+    position: relative;
+    z-index: 2;
+}
+
+
+#spotlight .slideshow {
+        position: relative;
+        height: 320px;
+        overflow: hidden;
+}
+
+#spotlight .slideshow .slides-wrapper {
+            position: absolute;
+            width: 860px;
+            height: 320px;
+            left: 0;
+            top: 0px;
+            z-index: 1;
+}
+
+        #spotlight .slideshow .indicators {
+            position: absolute;
+            left: 20px;
+            bottom: 30px;
+            z-index: 2;
+        }
+
+            #spotlight .slideshow .indicators a {
+                font-size: 0;
+                line-height: 0;
+                float: left;
+                display: block;
+                width: 6px;
+                height: 6px;
+                background-color: #b3b3b3;
+                margin-right: 3px;
+                border: 1px solid #d8dad9;
+            }
+
+                #spotlight .slideshow .indicators a.active {
+                    background-color: white;
+                }
+
+        #spotlight .slideshow .slide {
+		position: absolute;
+		z-index: 1;
+		display: block;
+		line-height: 0;
+		left: 22px;
+		top: 1px;
+		width: 868px;
+		height: 326px;
+        }
+
+            #spotlight .slideshow .slide .title {
+                font-weight: normal;
+                position: absolute;
+                line-height: 40px;
+                font-size: 16px;
+                color: white;
+                padding: 0 20px;
+                right: 20px;
+                bottom: 50px;
+            }
+
+            #spotlight .slideshow .slide.next {
+                z-index: 2;
+            }
+
+            #spotlight .slideshow .slide.active {
+                z-index: 3;
+            }
+    /* 滚动图片的小按钮END *
+	/
+   /* 新闻滚动图片START */
+
+    #spotlight .newsslideshow {
+        position: relative;
+        height: 250px;
+        overflow: hidden;
+    }
+
+        #spotlight .newsslideshow .newsslides-wrapper {
+            position: absolute;
+            width: 765px;
+            height: 250px;
+            left: 0;
+            top: 0px;
+            z-index: 1;
+        }
+
+        #spotlight .newsslideshow .newsindicators {
+            position: absolute;
+            left: 20px;
+            bottom: 30px;
+            z-index: 2;
+        }
+
+            #spotlight .newsslideshow .newsindicators a {
+                font-size: 0;
+                line-height: 0;
+                float: left;
+                display: block;
+                width: 10px;
+                height: 10px;
+                background-color: #b3b3b3;
+                margin-right: 3px;
+                border: 1px solid #d8dad9;
+            }
+
+                #spotlight .newsslideshow .newsindicators a.active {
+                    background-color: white;
+                }
+
+        #spotlight .newsslideshow .newsslide {
+            position: absolute;
+            z-index: 1;
+            display: block;
+            line-height: 0;
+        }
+
+            #spotlight .newsslideshow .newsslide .title {
+                font-weight: normal;
+                position: absolute;
+                line-height: 40px;
+                font-size: 16px;
+                color: white;
+                padding: 0 20px;
+                right: 20px;
+                bottom: 50px;
+            }
+
+            #spotlight .newsslideshow .newsslide.next {
+                z-index: 2;
+            }
+
+            #spotlight .newsslideshow .newsslide.active {
+                z-index: 3;
+            }
+/* 新闻滚动图片END */
+
+
+/* 搜索START */
+.search-form {
+    float: right;
+    line-height: 0;
+    margin-top: 5px;
+	
+}
+
+    .search-form input {
+        outline: none;
+        float: left;
+        height: 10px;
+        line-height: 10px;
+        margin: 0;
+        width: 135px;
+        border: none;
+        padding: 0;
+        border-radius: 4px 0 0 4px;
+        padding: 7px 0 7px 5px;
+    }
+
+        .search-form input.btn {
+            cursor: pointer;
+            width: 28px;
+            height: 24px;
+            text-indent: -1000px;
+            border-radius: 0 4px 4px 0;
+            padding: 0;
+            background: white url(../img/search-icon.png) no-repeat 0% 50%;
+        }
+/* 搜索END*/
+
+
+
+/* 水平线，更多，有些标题，图标，时间,空白 START*/
+.cuitkongxi {
+    height: 3px;
+    width: 960px;
+}
+/* 导航与大图片之间距离 */
+.cuitmiddle {
+    height: 30px;
+    width: 960px;
+}
+
+.cuit-hr {
+    height: 0px;
+    border: none;
+    border-top: 2px solid #0969b5;
+}
+
+.cuit-title {
+    text-align: center;
+    position: relative;
+    background-color: #0969b5;
+    width: 77px;
+    height: 23px;
+    line-height: 23px;
+    font-weight: bold;
+    font-size: 13px;
+    color: white;
+}
+
+.cuit-more {
+    margin-right: 0px;
+    font-weight: normal;
+    font-size: 11px;
+    color: #0969b5;
+}
+
+.datetime {
+    float: right;
+    color: #5d5d5d;
+}
+
+.smallpic {
+    font-size: 8px;
+    height: 20px;
+    padding-right: 3px;
+}
+/* 标题前小图片*/
+
+/* 水平线，更多，有些标题，图标，时间，空白 END*/
+
+
+
+
+
+
+
+
+
+/*中间分栏设计start*/
+.mid {
+    background-image: url(../img/midbeijing.jpg);
+    background-position: 50% 50%;
+    margin-top: 0px;
+}
+/* 两边中间背景*/
+.mid1{
+    background-image: url(../img/newsmidbg.jpg);
+    background-position: 50% 50%;
+    margin-top: 0px;
+}
+/* 两边中间背景*/
+
+/* 中间栏目大的框架设计START */
+.index-left-column {
+    width: 799px;
+    float: left;
+}
+
+.index-right-column {
+    width: 137px;
+    float: left;
+    margin-left: 14px;
+    margin-top: 80px;
+}
+/* 中间栏目大的框架设计END*/
+/* 中间几个模块的框架设计START */
+.index-left-column .news-left, .index-left-column .news-right {
+    float: left;
+    width: 371px;
+}
+
+.index-left-column .news-left {
+    margin-left: 12px;
+    margin-right: 15px;
+}
+
+.index-left-column .news-right {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.index-left-column .news-rightdown {
+    margin-left: 15px;
+    margin-right: 15px;
+    height:;
+}
+/* 中间几个模块的框架设计END*/
+
+
+
+/*新闻内容标题和其它备注START*/
+
+.news-content-title-text {
+    float: middle;
+    height: 30px;
+    line-height: 19px;
+    font-size: 19px;
+    overflow: hidden;
+    text-align: center;
+    vertical-align:middle;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.news-content-other {
+    float: middle;
+    padding-right: 3px;
+    font-size: 12px;
+    line-height: 25px;
+    text-align: center;
+    color: #5d5d5d;
+}
+
+.content-cuit-hr {
+    height: 0px;
+    border: none;
+    border-top: 1px solid;
+    width: 500px;
+    float: middle;
+}
+/* 新闻内容标题和其它备注end*/
+
+
+/* 内容简介START*/
+.newspage-text-content-inner {
+    font-size: 13px;
+    line-height: 1.8;
+    color: #5d5d5d;
+}
+
+    .newspage-text-content-inner img {
+        max-width: 100%;
+    }
+
+    .newspage-text-content-inner p {
+        margin: 1em 0;
+    }
+/* 内容简介END*/
+
+
+/* 右边链接模块的框架设计START*/
+.newscolumn-inner {
+    padding: 1px 15px;
+    background-image: url(../img/news-right1.jpg);
+    background-repeat: no-repeat;
+    height: 250px;
+    margin-left: 10px;
+
+}
+
+.newsright-link-list {
+    line-height: 24px;
+}
+
+    .newsright-link-list li {
+        border-bottom: 1px solid #d4d4d4;
+        padding: 0 3px;
+        font-size: 13px;
+    }
+
+        .newsright-link-list li a {
+            display: block;
+            letter-spacing: 4px;
+            background: transparent url(../img/icon-arrow-big.png) no-repeat 100% 50%;
+        }
+
+        .newsright-link-list li.first {
+            letter-spacing: 4px;
+        }
+
+.newscolumn-inner-pic {
+    background-image: url(../img/news-right-pic.png);
+    background-repeat: no-repeat;
+    height: 38px;
+    background-position: center top;
+    width: 151px;
+}
+
+.newspic-right-link-list {
+    line-height: 38px;
+    font-size: 13px;
+    letter-spacing: 4px;
+    text-align: center;
+}
+/* 右边链接模块的框架设计END*/
+
+/* 中间栏目大的框架设计START */
+.newsindex-left-column, .newsindex-middle-column, .newsindex-right-column {
+    width: 320px;
+    float: left;
+}
+
+.newsindex1-left-column1 {
+    width: 640px;
+    float: left;
+}
+
+.newsindex1-left-column, .newsindex1-middle-column, .newsindex1-right-column {
+    width: 320px;
+    float: left;
+}
+/* 中间栏目大的框架设计END*/
+/* 中间几个模块的框架设计START */
+.ImageInfo{
+	width:200px;
+	margin:0 auto;
+}
+.newsindex-left {
+    margin-left: 12px;
+    margin-right: 15px;
+}
+
+.newsindex-middle {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.newsindex-right {
+    margin-left: 15px;
+    margin-right: 12px;
+}
+
+.newsindex1-left {
+    margin-left: 12px;
+    margin-right: 15px;
+}
+
+.newsindex1-middle {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.newsindex1-right {
+    margin-left: 15px;
+    margin-right: 12px;
+}
+/* 中间几个模块的框架设计END*/
+.news-roll-pic {
+    float: left;
+    margin-left: 12px;
+    margin-right: 15px;
+}
+
+.newsindex-block .newsindex-block-content ul {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+    .newsindex-block .newsindex-block-content ul li {
+        height: 20px;
+        line-height: 20px;
+    }
+
+.newsindex-block1 .newsindex-block-content1 ul {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+    .newsindex-block1 .newsindex-block-content1 ul li {
+        height: 20px;
+        line-height: 20px;
+    }
+
+.newsindex1-block .newsindex-block-content ul {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+    .newsindex1-block .newsindex-block-content ul li {
+        height: 20px;
+        line-height: 20px;
+    }
+
+.newsindex1-block1 .newsindex-block-content1 ul {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+    .newsindex1-block1 .newsindex-block-content1 ul li {
+        height: 20px;
+        line-height: 20px;
+    }
+
+/* 中间几个模块的标题排版设计END*/
+/*2级页面  新闻列表模块的标题排版设计START*/
+.news1-page-content {
+    width: 620px;
+    float: left;
+}
+
+.news1-links-ul li {
+    float: left;
+    width: 720px;
+    border-bottom: 1px dotted #ddd;
+    line-height: 32px;
+    height: 32px;
+}
+/* 2级页面  新闻列表的标题排版设计END*/
+
+/*2级页面  新闻列表模块的标题排版设计START*/
+.newsright-page-content {
+    width: 280px;
+    float: left;
+}
+
+.newsright-links-ul li {
+    float: left;
+    width: 180px;
+    border-bottom: 1px dotted #ddd;
+    line-height: 32px;
+    height: 32px;
+}
+/* 2级页面  新闻列表的标题排版设计ENd*/
+/* 中间滚动的大图左右的框架设计START */
+.newstop-left {
+    width: 770px;
+    float: left;
+    height: 250px;
+}
+
+.newstop-right {
+    width: 190px;
+    float: right;
+}
+/* 中间滚动的大图左右的框架设计END*/
+
+
+
+
+
+.footerMain{
+	
+	display:block;
+	float:none;
+	position:relative;
+	clear:both;
+}
+
+.footer {
+    background-color: #dedede;
+    height: 50px;
+}
+
+.footer-friend-link {
+    padding: 20px 0;
+}
+
+.footer-friend-link li {
+        float: left;
+        padding: 0 20px;
+        border-left: 1px solid #aaa;
+        height: 14px;
+        line-height: 14px;
+        font-size: 14px;
+    }
+
+.footer-friend-link li.first {
+            border-left: 0;
+            padding-left: 0;
+            margin-left: 16px;
+        }
+
+.footer1 {
+    background-color: #ec9c03;
+    height: 5px;
+}
+
+.footer2 {
+    background-image: url(../img/dibu.jpg);
+    height: 81px;
+}
+
+.footbottom {
+    line-height: 20px;
+    margin-left: 12px;
+    text-align: left;
+    float: left;
+    color: white;
+    margin-top: 10px;
+    font-size: 12px;
+}

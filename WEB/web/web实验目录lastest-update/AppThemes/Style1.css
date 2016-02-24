@@ -1,0 +1,178 @@
+/* CSS Document */
+
+.left-top-image{
+    text-align: left;
+    font-size: 19px;
+    width: 200px;
+    height: 60px;
+    color: blue;
+    padding-left: 13px;
+}
+
+
+
+
+/*2级页面  新闻列表模块的标题排版设计START*/
+.newsright-page-content {
+    width: 280px;
+    float: left;
+}
+
+.newsright-links-ul li {
+    float: left;
+    width: 180px;
+    border-bottom: 1px dotted #ddd;
+    line-height: 32px;
+    height: 32px;
+}
+/* 2级页面  新闻列表的标题排版设计ENd*/
+/* 中间滚动的大图左右的框架设计START */
+.newstop-left {
+    width: 770px;
+    float: left;
+    height: 250px;
+}
+
+.newstop-right {
+    width: 190px;
+    float: right;
+}
+/* 中间滚动的大图左右的框架设计END*/
+
+
+/* 中间几个模块的框架设计START */
+
+.newsindex-left {
+    margin-left: 12px;
+    margin-right: 15px;
+}
+
+.newsindex-middle {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.newsindex-right {
+    margin-left: 15px;
+    margin-right: 12px;
+}
+
+.newsindex1-left {
+    margin-left: 12px;
+    margin-right: 15px;
+}
+
+.newsindex1-middle {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.newsindex1-right {
+    margin-left: 15px;
+    margin-right: 12px;
+}
+/* 中间几个模块的框架设计END*/
+.news-roll-pic {
+    float: left;
+    margin-left: 12px;
+    margin-right: 15px;
+}
+
+.newsindex-block .newsindex-block-content ul {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+    .newsindex-block .newsindex-block-content ul li {
+        height: 20px;
+        line-height: 20px;
+    }
+
+.newsindex-block1 .newsindex-block-content1 ul {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+    .newsindex-block1 .newsindex-block-content1 ul li {
+        height: 20px;
+        line-height: 20px;
+    }
+
+.newsindex1-block .newsindex-block-content ul {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+    .newsindex1-block .newsindex-block-content ul li {
+        height: 20px;
+        line-height: 20px;
+    }
+
+.newsindex1-block1 .newsindex-block-content1 ul {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+    .newsindex1-block1 .newsindex-block-content1 ul li {
+        height: 20px;
+        line-height: 20px;
+    }
+
+/* 中间几个模块的标题排版设计END*/
+/*2级页面  新闻列表模块的标题排版设计START*/
+.news1-page-content {
+    width: 620px;
+    float: left;
+}
+
+.news1-links-ul li {
+    float: left;
+    width: 720px;
+    border-bottom: 1px dotted #ddd;
+    line-height: 32px;
+    height: 32px;
+}
+/* 2级页面  新闻列表的标题排版设计END*/
+
+/* 中间内容简介和右边的栏目整体规划START */
+.newsfin-index-left-column {
+    width: 758px;
+    float: left;
+}
+
+    .newsfin-index-left-column .newsleft-column {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+.newsfin-index-right-column {
+    width: 200px;
+    float: right;
+}
+
+    .newsfin-index-right-column .news1-left {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+/* 中间内容简介和右边的栏目整体规划END */
+
+/* 当前位置和一些标注START*/
+.newspage-title {
+    height: 25px;
+    line-height: 20px;
+    font-size: 20px;
+    overflow: hidden;
+}
+
+    .newspage-title .newspage-title-text {
+        float: left;
+        color: #5d5d5d;
+    }
+
+    .newspage-title .newspage-position {
+        float: right;
+        padding-right: 3px;
+        font-size: 12px;
+        line-height: 25px;
+    }
+/* 当前位置和一些标注end*/

@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>新闻发布</title>
+<style type="text/css">
+strong {
+	font-size: 36px;
+}
+
+table {
+	text-align: center;
+}
+</style>
+
+<link href="../AppThemes/ADMS.css" type="text/css" rel="stylesheet">
+
+<script type="text/javascript" language="javascript">   
+function iFrameHeight() {   
+var ifm= document.getElementById("iframepage");   
+var subWeb = document.frames ? document.frames["iframepage"].document : ifm.contentDocument;   
+if(ifm != null && subWeb != null) {
+   ifm.height = subWeb.body.scrollHeight;
+   ifm.width = subWeb.body.scrollWidth;
+}   
+}   
+</script>
+
+</head>
+
+<body>
+	<div class="Ititle" id="Ititle">
+		<a class="Ita" id="Ita">
+        	新闻发布系统
+        </a>
+    </div>
+    <div class="Icontent" id="Icontent">
+    	<div class="Dleft" id="Dleft">
+
+        </div>
+        <div class="Dright" id="Dright">
+        	
+        	标题：<input class="bt"  />
+            作者：<input class="zz"  />
+            <select>
+            	<option value="1">焦点新闻</option>
+                <option value="1">综合新闻</option>
+                <option value="1">学术动态</option>
+                <option value="1">文化活动</option>
+                <option value="1">工作交流</option>
+            </select>
+			<form class="Mform" id="Mform" method="post">
+        	<textarea class="news" id="news" ></textarea>
+            <br class="CBr" id="CBr" />
+            <button class="Submit" id="Submit" type="button" >提交</button>
+            
+            <button class="cancel" id="cancel" type="reset"/>清空</button>
+        	</form>
+        </div>
+    	
+    </div>
+    
+</body>
+</html>

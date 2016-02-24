@@ -1,0 +1,124 @@
+/* CSS Document */
+
+.title{
+	float:none;
+	width:1000px;
+	margin:0 auto;
+	text-align:center;
+}
+.content{
+	width:1000px;
+	margin:0 auto;
+	float:none;
+	min-height:500px;
+}
+.content .Dleft{
+	
+	width:200px;
+	margin:0 auto;
+	float:left;
+	position:absolute;
+	margin-top:150px;
+}
+
+.content .Dright{
+	
+	width:800px;
+	margin:0 auto;
+	float:left;
+	position:relative;
+}
+
+.llist{
+	
+	margin-bottom:10px;
+}
+.footer{
+	clear:both;
+	width:1000px;
+	margin:0 auto;
+	float:none;
+	text-align:center;
+}
+.ta{
+	
+	font-size:36px;
+	color:blue;
+	text-align:center;
+	margin-top:10px;
+}
+.CBr{
+	
+	margin-top:10px;
+}
+.Mana{
+	
+	font-size:16px;
+	text-decoration:none;
+	margin-top:20px;
+	
+}
+.CopyRight{
+	
+	font-size:36px;
+	color:#C33;
+	text-align:center;
+}
+
+
+/*内嵌页面*/
+
+.Ititle{
+	float:none;
+	width:800px;
+	margin:0 auto;
+	text-align:center;
+	margin-top:30px;
+}
+.Icontent{
+	width:800px;
+	margin-left:100px;
+	float:none;
+	min-height:500px;
+	text-align:center;
+	margin-top:20px;
+}
+
+.Ita{
+	
+	font-size:36px;
+	color:#0FF;
+	text-align:center;
+
+}
+.IMana{
+	
+	font-size:16px;
+	text-decoration:none;
+}
+
+
+.news{
+	
+	width:700px;
+	height:400px;
+
+}
+.Submit{
+	width:60px;
+	height:30px;
+	margin-top:10px;
+
+}
+.cancel{
+	width:60px;
+	height:30px;
+	margin-top:10px;
+	margin-left:30px;
+}
+
+.lshow{
+	clear:both;
+	float:left;
+	margin-top:10px;
+}

@@ -1,0 +1,416 @@
+.login_top_bg {
+    background-image: url(../img/login-top-bg.gif);
+    background-repeat: repeat-x;
+}
+
+.adminlog {
+    font-family: "MicrosoftYaHei","Microsoft YaHei",Arial;
+    font-size: 12px;
+}
+
+.adminleft {
+    font-family: "MicrosoftYaHei","Microsoft YaHei",Arial;
+    font-size: 12px;
+    color: #000;
+    background-color: #EEF2FB;
+    margin: 0px;
+    width:182px;
+    vertical-align:top;
+}
+
+.adminright {
+    font-size:12px;
+    margin-left: 8px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    background-color: #F8F9FA;
+    font-family: "MicrosoftYaHei","Microsoft YaHei",Arial;
+}
+
+.admintop {
+    font-family: "MicrosoftYaHei","Microsoft YaHei",Arial;
+}
+
+.admin_topbg {
+    background-image: url(../img/top-right.gif);
+    background-repeat: repeat-x;
+    border:0;
+    width:980px;
+    height:64px;
+}
+
+
+.admincontain {
+
+width:790px;
+}
+
+.adminrighttxt{width:150px;height:30px;
+}
+
+.login-buttom-bg {
+    background-image: url(../img/login-buttom-bg.gif);
+    background-repeat: repeat-x;
+}
+
+.login-buttom-txt {
+    font-size: 10px;
+    color: #ABCAD3;
+    text-decoration: none;
+    line-height: 20px;
+}
+
+.login_txt {
+    line-height: 25px;
+    color: #333333;
+    height:35px;
+}
+
+.Submit {
+    color: #629DAE;
+    text-decoration: none;
+    background-image: url(../img/Submit_bg.gif);
+    background-repeat: repeat-x;
+}
+
+.login_bg {
+    background-image: url(../img/login_bg.jpg);
+    background-repeat: repeat-x;
+}
+
+.login_bg2 {
+    background-image: url(../img/login-content-bg.gif);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.admin_txt {
+    color: #FFFFFF;
+    text-decoration: none;
+    height: 38px;
+    width: 100%;
+}
+
+.login_txt_bt {
+    font-size: 14px;
+    line-height: 25px;
+    color: #666666;
+    font-weight: bold;
+}
+
+
+
+#container {
+    width: 182px;
+}
+
+h1 {
+    font-size: 14px;
+    margin: 0px;
+    width: 182px;
+    cursor: pointer;
+    height: 30px;
+    line-height: 20px;
+}
+
+    h1 a {
+        font-size: 14px;
+        display: block;
+        width: 182px;
+        color: #000;
+        height: 30px;
+        text-decoration: none;
+        moz-outline-style: none;
+        background-image: url(menu_bgS.gif);
+        background-repeat: no-repeat;
+        line-height: 30px;
+        text-align: left;
+        margin: 0px;
+        padding-left: 10px;
+    }
+
+.content {
+    width: 182px;
+    height: 26px;
+}
+
+.MM ul {
+    list-style-type: none;
+    margin: 0px;
+    padding-left: 10px;
+    display: block;
+}
+
+.MM li {
+    line-height: 26px;
+    color: #333333;
+    list-style-type: none;
+    display: block;
+    text-decoration: none;
+    height: 26px;
+    width: 182px;
+    padding-left: 10px;
+}
+
+.MM {
+    width: 182px;
+    margin: 0px;
+    padding-left: 10px;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    clip: rect(0px,0px,0px,0px);
+}
+
+    .MM a:link {
+        line-height: 26px;
+        color: #333333;
+        background-image: url(menu_bg1.gif);
+        background-repeat: no-repeat;
+        height: 30px;
+        width: 182px;
+        display: block;
+        text-align: left;
+        margin: 0px;
+        padding-left: 10px;
+        overflow: hidden;
+        text-decoration: none;
+    }
+
+    .MM a:visited {
+        line-height: 26px;
+        color: #333333;
+        background-image: url(menu_bg1.gif);
+        background-repeat: no-repeat;
+        display: block;
+        text-align: left;
+        margin: 0px;
+        padding-left: 10px;
+        height: 26px;
+        width: 182px;
+        text-decoration: none;
+    }
+
+    .MM a:active {
+        line-height: 26px;
+        color: #333333;
+        background-image: url(menu_bg1.gif);
+        background-repeat: no-repeat;
+        height: 26px;
+        width: 182px;
+        display: block;
+        text-align: left;
+        margin: 0px;
+        padding-left: 10px;
+        overflow: hidden;
+        text-decoration: none;
+    }
+
+    .MM a:hover {
+        line-height: 26px;
+        font-weight: bold;
+        color: #ff6600;
+        text-align: left;
+        display: block;
+        margin: 0px;
+        padding-left: 10px;
+        height: 26px;
+        width: 182px;
+        text-decoration: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.txt_bt {
+    line-height: 25px;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+}
+
+.left_topbg {
+    background-image: url(content-bg.gif);
+    background-repeat: repeat-x;
+}
+
+.admin_toptxt {
+    font-size: 12px;
+    color: #4A8091;
+    height: 18px;
+    width: 100%;
+    overflow: hidden;
+    position: ¹Ì¶¨;
+}
+
+.left_bt {
+    font-size: 14px;
+    font-weight: bold;
+    color: #395a7b;
+}
+
+.left_bt2 {
+    font-size: 14px;
+    line-height: 40px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.titlebt {
+    font-size: 12px;
+    line-height: 26px;
+    font-weight: bold;
+    color: #000000;
+    background-image: url(top_bt.jpg);
+    background-repeat: no-repeat;
+    display: block;
+    text-indent: 15px;
+    padding-top: 5px;
+}
+
+.left_txt {
+    font-size: 12px;
+    line-height: 25px;
+    color: #666666;
+}
+
+.left_txt2 {
+    font-size: 12px;
+    line-height: 25px;
+    color: #000000;
+    height:30px;
+  text-align:left;
+    padding-top:2px;
+    width:100px;
+}
+.left_txtquanxian {
+    font-size: 12px;
+    line-height: 25px;
+    color: #000000;
+    height:30px;
+  text-align:left;
+    padding-top:2px;
+   width:100%;
+}
+
+
+
+.adminbutton { height:40px;font-size: 12px;padding-top:10px;
+}
+.nowtable {
+    background-color: #e1e5ee;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-top-color: #bfc4ca;
+    border-right-color: #bfc4ca;
+    border-bottom-color: #bfc4ca;
+    border-left-color: #bfc4ca;
+    height:40px;
+    width:100%;
+}
+
+.adminbottom {
+    background-color: #e1e5ee;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-top-color: #bfc4ca;
+    border-right-color: #bfc4ca;
+    border-bottom-color: #bfc4ca;
+    border-left-color: #bfc4ca;
+    height:40px;
+    width:980px;
+    text-align:center;
+    padding-top:5px;
+    font-size: 13px;
+    line-height: 40px;
+    color: #333333;
+
+
+}
+
+
+.left_txt3 {
+    font-size: 12px;
+    line-height: 25px;
+    color: #003366;
+    text-decoration: none;
+}
+
+
+
+.left_ts {
+    font-size: 12px;
+    line-height: 25px;
+    font-weight: bold;
+    color: #FF6600;
+}
+
+.main_tab {
+    COLOR: #000000;
+    BACKGROUND-COLOR: #e2e7ed;
+    border: 1px solid #e2e7ed;
+}
+
+
+.gridView {
+	BORDER-RIGHT: #bad6ec 1px; BORDER-TOP: #bad6ec 1px; BORDER-LEFT: #bad6ec 1px; COLOR: #566984; BORDER-BOTTOM: #bad6ec 1px; FONT-FAMILY: font-family: "MicrosoftYaHei","Microsoft YaHei",Arial;font-size: 12px;
+    width:100%;
+}
+    .gridView td,th{
+        text-align:left;
+    }
+
+.gridViewHeader {
+	BORDER-RIGHT: #bad6ec 1px solid; BORDER-TOP: #bad6ec 1px solid; BACKGROUND-IMAGE: url(bg_th.gif); BORDER-LEFT: #bad6ec 1px solid; LINE-HEIGHT: 27px; BORDER-BOTTOM: #bad6ec 1px solid
+}
+.gridViewItem {
+	BORDER-RIGHT: #bad6ec 1px solid; BORDER-TOP: #bad6ec 1px solid; BORDER-LEFT: #bad6ec 1px solid; LINE-HEIGHT: 32px; BORDER-BOTTOM: #bad6ec 1px solid; TEXT-ALIGN:left;
+}
+.cmdField {
+    BORDER-RIGHT: 0px;
+    BORDER-TOP: 0px;
+    BACKGROUND-IMAGE: url(bg_rectbtn.png);
+    OVERFLOW: hidden;
+    BORDER-LEFT: 0px;
+    WIDTH: 67px;
+    COLOR: #364c6d;
+    LINE-HEIGHT: 27px;
+    BORDER-BOTTOM: 0px;
+    BACKGROUND-REPEAT: repeat-x;
+    HEIGHT: 27px;
+    BACKGROUND-COLOR: transparent;
+    TEXT-DECORATION: none;
+}
+
+.buttonBlue {
+    BORDER-RIGHT: 0px;
+    BORDER-TOP: 0px;
+    BACKGROUND-IMAGE: url(bg_button_blue.gif);
+    BORDER-LEFT: 0px;
+    WIDTH: 78px;
+    COLOR: white;
+    BORDER-BOTTOM: 0px;
+    BACKGROUND-REPEAT: no-repeat;
+    HEIGHT: 21px;
+}

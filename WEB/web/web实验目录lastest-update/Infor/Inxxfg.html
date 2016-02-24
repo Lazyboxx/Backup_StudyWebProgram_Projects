@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>校园风光</title>
+
+<link rel="stylesheet" href="../AppThemes/cuit.css">
+
+</head>
+<body>
+
+
+
+
+<div class="images-container">
+										<div class="tabs-head">
+											
+                                            <a href="javascript:;" class="tab tab0 active" data-for="tab0">航空港校区</a>
+											
+											<a href="javascript:;" class="tab tab1" data-for="tab1">龙泉校区</a>
+											
+										</div>
+
+
+
+
+	<div class="tabs-content">
+											
+        <div class="tab clearfix tab-content tab0 active">
+
+            <a class="slideshow-image" href="1.jpg" thumb="s1.jpg" rel="preview_cat_127" src="1.jpg" title="雾中成信">
+                <img src="s1.jpg" alt="雾中成信">
+                <span>雾中成信</span>
+            </a>
+            <a class="slideshow-image" href="2.jpg" thumb="s2.jpg" rel="preview_cat_127" src="2.jpg" title="钟楼">
+                <img src="s2.jpg" alt="钟楼">
+                <span>钟楼</span>
+            </a>
+            <a class="slideshow-image" href="3.jpg" thumb="s3.jpg" rel="preview_cat_127" src="3.jpg" title="和谐">
+                <img src="s3.jpg" alt="和谐">
+                <span>和谐</span>
+            </a>
+            <a class="slideshow-image" href="4.jpg" thumb="s4.jpg" rel="preview_cat_127" src="4.jpg" title="荷花池">
+                <img src="s4.jpg" alt="荷花池">
+                <span>荷花池</span>
+            </a>
+            <a class="slideshow-image" href="5.jpg" thumb="s5.jpg" rel="preview_cat_127" src="5.jpg" title="银杏大道">
+                <img src="s5.jpg" alt="银杏大道">
+                <span>银杏大道</span>
+            </a>
+
+
+        </div>
+												<div class="tab clearfix tab-content tab1">
+												<a class="slideshow-image" href="./fengguang/01.jpg"  thumb="./fengguang/s01.jpg" rel="preview_cat_127" src="./fengguang/01.jpg" title="校大门">
+													<img src="./fengguang/s01.jpg" alt="校大门">
+													<span>校大门</span>
+												</a>
+												<a class="slideshow-image" href="./fengguang/02.jpg"  thumb="./fengguang/s02.jpg" rel="preview_cat_127" src="./fengguang/02.jpg" title="教学楼">
+													<img src="./fengguang/s02.jpg" alt="教学楼">
+													<span>教学楼</span>
+												</a>
+												
+											<a class="slideshow-image" href="./fengguang/03.jpg" thumb="./fengguang/s03.jpg" rel="preview_cat_127" src="./fengguang/03.jpg" title="九龙柱广场">
+													<img src="./fengguang/s03.jpg" alt="九龙柱广场">
+													<span>九龙柱广场</span>
+												</a>
+												<a class="slideshow-image" href="./fengguang/04.jpg"  thumb="./fengguang/s04.jpg" rel="preview_cat_127" src="./fengguang/04.jpg" title="商务楼">
+													<img src="./fengguang/s04.jpg" alt="商务楼">
+													<span>商务楼</span>
+												</a>
+												<a class="slideshow-image" href="./fengguang/05.jpg" thumb="./fengguang/s05.jpg" rel="preview_cat_127" src="./fengguang/05.jpg" title="学术报告厅">
+													<img src="./fengguang/s05.jpg" alt="学术报告厅">
+													<span>学术报告厅</span>
+												</a>
+												<a class="slideshow-image" href="./fengguang/06.jpg"  thumb="./fengguang/s06.jpg" rel="preview_cat_127" src="./fengguang/06.jpg" title="校园采风">
+													<img src="./fengguang/s06.jpg" alt="校园采风">
+													<span>校园采风</span>
+												</a>	
+											
+												</div>
+											
+										</div>
+									</div>
+
+<script src="../jquery-1.10.2.min.js"></script>
+<script src="../preview.js"></script>
+				
+<script>
+			$(function()
+			{
+				$('.block.lingdao .person-name').click(function()
+				{
+					var id = $(this).attr('data-id');
+					if (!id) return;
+					if ($(this).is('.active')) return;
+					$('.block.lingdao .person-name.active').removeClass('active');
+					$(this).addClass('active');
+					$('.block.lingdao .block-content .person').slideUp();
+					$('.block.lingdao .block-content .person.person_id_'+id).slideDown();
+				});
+
+				$('.slideshow-image').click(function(event)
+				{
+					preview($(this));
+					event.preventDefault();
+				});
+
+
+				$('.tabs-head .tab').click(function()
+				{
+					if ($(this).is('.active')) return;
+					$(this).siblings('.active').removeClass('active');
+					$(this).addClass('active');
+					var targetEl = $(this).attr('data-for');
+					$('.tabs-content .tab.active').removeClass('active');
+					$('.tabs-content .tab.'+targetEl).addClass('active');
+				});
+
+			});
+			</script>
+
+
+</body>
+</html>
